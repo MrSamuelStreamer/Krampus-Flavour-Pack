@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RimThemes>
+  <description>Christmas</description> 
+  <category>recolour</category>
+  <description>A Christmas colour theme.</description>
+  <disableMainRimthemesLogo>false</disableMainRimthemesLogo>	
+  <disableMainThemeSelector>false</disableMainThemeSelector>
+  <disableWallpaper>false</disableWallpaper>
+	<disableCustomLoader>True</disableCustomLoader>    
+  <windowsShadow>false</windowsShadow>
+  <dialogStacking>true</dialogStacking>
+  <menuAlignment>right</menuAlignment>
+  <!-- unsure if below work but it's less clutter if it is -->
+  <cornerInfoMode>2</cornerInfoMode>
+	<ludeonLogoMode>2</ludeonLogoMode>
+	<rimthemesLogoMode>2</rimthemesLogoMode>
+	<windowsShadowMode>2</windowsShadowMode>
+	<expansionsIconsMode>2</expansionsIconsMode>
+  <!---->
+  <GenUI.MouseoverColor>(3,107,24)</GenUI.MouseoverColor>
+  <Widgets.TutorWindowBGFillColor>(3, 107, 24)</Widgets.TutorWindowBGFillColor>
+  <Widgets.TutorWindowBGBorderColor>(0, 124, 25)</Widgets.TutorWindowBGBorderColor>
+  <FloatMenuOption.ColorTextDisabled>(255,255,255)</FloatMenuOption.ColorTextDisabled>
+  <FloatMenuOption.ColorBGDisabled>(155,0,0)</FloatMenuOption.ColorBGDisabled>
+</RimThemes>

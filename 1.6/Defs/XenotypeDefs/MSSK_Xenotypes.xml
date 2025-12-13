@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Krampus from Germanic mythology, big horrible demon that follows St Nick around and puts kids in sacks, very normal stuff -->
+  <XenotypeDef>
+    <defName>MSSK_Krampus</defName>
+    <label>Krampus</label>
+    <description>Krampus are terrifying demonic creature rumoured to hunt down misbehaving children and stuff them into a bottomless sack. Occasionally they are seen in the presence of a benevolent, rotund, bearded gentleman who dresses in red and hands out gifts to the good and kind.</description>
+    <descriptionShort>A powerful demonic entity with devestating melee proficiency.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Custom/VBE_CustomXenotypeIcon67</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>Deathless</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_Fast_TotalHealing</li>
+      <li>TotalHealing</li>
+      <li MayRequire="redmattis.bigsmall.core">WoundHealing_UltraFast</li>
+      <li MayRequire="sarg.alphagenes">AG_ColdImmunity</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_DragonHorns</li>
+      <li MayRequire="redmattis.bigsmall.core">JotunFrame</li>
+      <li MayRequire="redmattis.bigsmall.core">Cannibal</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_CannotWearClothingOrArmor</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_FeedingFrenzy</li>
+      <li MayRequire="sarg.alphagenes">AG_PetrifyingGaze</li>
+      <li MayRequire="redmattis.bigsmall.core">VU_Pounce</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_SnekEngulf</li>
+      <li MayRequire="sarg.alphagenes">AG_TarBlood</li>
+      <li MayRequire="sarg.alphagenes">AG_PukeBile</li>
+      <li MayRequire="sarg.alphagenes">AG_EfficientMandibles</li>
+      <li MayRequire="sarg.alphagenes">AG_HardBones</li>
+      <li MayRequire="redmattis.bigsmall.core">VU_Darkness_MoveSpeed_Quick</li>
+      <li>FireWeakness</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_Unarmed_VeryStrong</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_Bloodlust</li>
+      <li>Aggression_HyperAggressive</li>
+      <li>Pain_Reduced</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_DemonTail</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_TrollEars_Great</li>
+      <li MayRequire="sarg.alphagenes">AG_EldritchVisage</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_TrollHairShort</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_SatanHead</li>
+      <li MayRequire="sarg.alphagenes">AG_GrowlingVoice</li>
+      <li>Hair_DarkBlack</li>
+      <li>Skin_InkBlack</li>
+      <li MayRequire="sarg.alphagenes">AlphaGenes_ExoticOrganism</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_FurryBody</li>
+      <li MayRequire="sarg.alphagenes">AG_ClawedHands</li>
+      <li>AptitudeRemarkable_Melee</li>
+      <li>AptitudeTerrible_Crafting</li>
+      <li>AptitudeTerrible_Medicine</li>
+      <li>AptitudeTerrible_Social</li>
+      <li>AptitudeTerrible_Intellectual</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Muppet, it's basically just Kermit. Designed to be Bob Cratchit but the Muppet's Christmas Carol version -->
+  <XenotypeDef>
+    <defName>MSSK_Muppet</defName>
+    <label>Muppet</label>
+    <description>Muppets are strange, animal-looking creatures that are human in all but appearance. Despite their comical appearance they are taken as seriously as any human and inexplicably fit into regular society without anyone else batting so much as an eye towards them. They are frequently intelligent, sharp-witted, and ingenious in their approach to any situation they find themselves in, from pirate ship crew to victorian workhouse.</description>
+    <descriptionShort>Muppets are small, green, easy-going but shockingly quick-witted humanoid... things.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Custom/Dirtmole_5</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li MayRequire="redmattis.bigsmall.core">BS_SmallFrame</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_Very_Passioned_Learning_Gene</li>
+      <li>RobustDigestion</li>
+      <li>Immunity_Weak</li>
+      <li MayRequire="sarg.alphagenes">AG_WaterRegeneration</li>
+      <li>WebbedPhalanges</li>
+      <li MayRequire="sarg.alphagenes">AG_WaterStriding</li>
+      <li MayRequire="sarg.alphagenes">AG_ColdSlowness</li>
+      <li MayRequire="sarg.alphagenes">AG_EggLaying</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_AlienApperanceStandards</li>
+      <li>Hair_BaldOnly</li>
+      <li>Beard_NoBeardOnly</li>
+      <li MayRequire="sarg.alphagenes">AG_FrogVoice</li>
+      <li MayRequire="sarg.alphagenes">AG_ScalyBody</li>
+      <li>Body_Thin</li>
+      <li>Skin_Green</li>
+      <li MayRequire="sarg.alphagenes">AG_Skin_DeepGreen</li>
+      <li MayRequire="sarg.alphagenes">AG_Skin_PlantGreen</li>
+      <li MayRequire="sarg.alphagenes">AG_ChameleonVision</li>
+      <li>ElongatedFingers</li>
+      <li>AptitudeStrong_Crafting</li>
+      <li>AptitudeStrong_Intellectual</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- A Who, from Dr Seuss - Grinch, Horton, etc. -->
+  <XenotypeDef>
+    <defName>MSSK_Who</defName>
+    <label>Who</label>
+    <description>Whos are the diminutive denizens of Whoville that pride themselves on living in peace and harmony with themselves and the nature around them. They are friendly to an almost aggressive level, with even their worst enemies finding themselves on the receiving end of persistent complements and reassuring sing-song. 
+
+They are tough, have particularly long lifespans, have enormous families, and a variety of nature-based skills, but lack any sort of military or combat awareness, with weapons and armour being foreign concepts to the Who people. 
+</description>
+    <descriptionShort>A small, overly friendly, nature-attuned race of tiny humanoids.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Custom/Yttakin_5</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li MayRequire="redmattis.bigsmall.core">BS_SmallFrame</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_CannotWearArmor</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_FastAging</li>
+      <li MayRequire="sarg.alphagenes">AG_FrailBack</li>
+      <li>Mood_Sanguine</li>
+      <li>MinTemp_LargeDecrease</li>
+      <li>MaxTemp_SmallDecrease</li>
+      <li MayRequire="sarg.alphagenes">AG_ToxResist_Vulnerability</li>
+      <li>FireWeakness</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_AnimalFriend</li>
+      <li>Aggression_DeadCalm</li>
+      <li>MeleeDamage_Weak</li>
+      <li>KindInstinct</li>
+      <li MayRequire="sarg.alphagenes">AG_InnerPeace</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_TinyTough</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_EverFertile</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_BirthLitter</li>
+      <li MayRequire="redmattis.bigsmall.core">VU_Libido_Succubus</li>
+      <li>Fertile</li>
+      <li MayRequire="sarg.alphagenes">AG_FastGestation</li>
+      <li>Body_Thin</li>
+      <li>Furskin</li>
+      <li>AptitudeStrong_Plants</li>
+      <li>AptitudeStrong_Animals</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Iron Lady, political xenotype,  -->
+  <XenotypeDef>
+    <defName>MSSK_IronLady</defName>
+    <label>Iron Lady</label>
+    <description>The Iron Lady was a xenotype crafted by an ancient empire as a solution to the unrest in their collapsing realm. Designed to be a stern, immovable leader, with built in assassination resistance, Iron Ladies were deployed in desperate circumstances but more often than not resulted in greater civil unrest by implementing rash short-term policies with a total disregard for cultural sensitivity.</description>
+    <descriptionShort>Skilled diplomats designed for high-profile political leadership in desperate times.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Custom/VBE_CustomXenotypeIcon125</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>Ageless</li>
+      <li>DiseaseFree</li>
+      <li>AptitudeStrong_Social</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_CannotWearArmor</li>
+      <li MayRequire="sarg.alphagenes">AG_Female</li>
+      <li MayRequire="sarg.alphagenes">AG_ArmourMedium</li>
+      <li MayRequire="sarg.alphagenes">AG_Enforcer</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_Concussive_Resistance</li>
+      <li MayRequire="sarg.alphagenes">AlphaGenes_ExoticOrganism</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_Metamorph_Night</li>
+      <li MayRequire="redmattis.bigsmall.core">MSSK_Krampus_Metamorphosis</li>
+    </genes>
+  </XenotypeDef>
+</Defs>
