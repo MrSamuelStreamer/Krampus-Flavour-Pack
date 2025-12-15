@@ -3,7 +3,8 @@
     <v1.6>
         <li>Common</li>
         <li>1.6</li>
-        <li>RimThemes</li> <!-- unsure of loadfolder comp, will check -->
-        <li IfModActive="ludeon.rimworld.biotech">Compatibility/ludeon.rimworld.biotech/1.6</li>
+        <li>RimThemes</li>
+        <li IfModActive="vanillaexpanded.backgrounds">Compatibility/vanillaexpanded.backgrounds</li>
+        <li IfModActive="zal.cocc">Compatibility/zal.cocc/1.6</li>
     </v1.6>
 </loadFolders>

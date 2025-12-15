@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch> 
+  <!-- Shub to Krampus -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Shub"]/label</xpath>
+    <value>
+      <label>Krampus</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Shub"]/portrait</xpath>
+    <value>
+      <portrait>Portraits/krampus</portrait>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Shub"]/titles</xpath>
+    <value>
+      <titles>The Punisher, The Black Goat, Shadow of Claus, Père Fouettard, The Swatter, The Child-Snatcher</titles>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Shub"]/domains</xpath>
+    <value>
+      <domains>Punishment, Retribution, Justice</domains>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Shub"]/description</xpath>
+    <value>
+      <description>The bringer of punishments.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Shub"]/descriptionLong</xpath>
+    <value>
+      <descriptionLong>The great horned one - Krampus appears as a large black-furred, goat-like figure, who accompanies the gift-bringer. Unlike his travel companion, Krampus brings only just deserts to those who disobey their betters, and scoff in the the face of authority. The justice inflicted by Krampus ranges from cruel gifts to physical torment to, for the worst offenders of all, being carried to Krampus's realm of eternal darkness.</descriptionLong>
+    </value>
+  </Operation>
+
+  <!-- Dagon to the Grinch -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Dagon"]/label</xpath>
+    <value>
+      <label>The Grinch</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Dagon"]/portrait</xpath>
+    <value>
+      <portrait>Portraits/grinch</portrait>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Dagon"]/titles</xpath>
+    <value>
+      <titles>The Christmas Thief, Anti-Who, The Demon of Envy, 1 of Hope</titles>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Dagon"]/domains</xpath>
+    <value>
+      <domains>Theft, Hopelessness, Sorrow</domains>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Dagon"]/description</xpath>
+    <value>
+      <description>The stealer of joy.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Dagon"]/descriptionLong</xpath>
+    <value>
+      <descriptionLong>The Grinch is known throughout Who planet as the ultimate bringer of torment. No other entity quite terrifies adult and child Who alike more than the Grinch, as no day is more sacred to the people of Who planet than the day of Christmas. And it is this day when the Grinch reaches the zenith of his hatred, and sets it on the people of Whoville. Many on Who planet view the Grinch as a force of nature, punishing the many Who for breaking the sacred harmony of nature.</descriptionLong>
+    </value>
+  </Operation>
+
+  <!-- Cthulu to The Wet Bandits -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Cthulhu"]/label</xpath>
+    <value>
+      <label>The Wet Bandits</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Cthulhu"]/portrait</xpath>
+    <value>
+      <portrait>Portraits/wetbandits</portrait>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Cthulhu"]/titles</xpath>
+    <value>
+      <titles>The Defeated Ones, The Tormented, Tortured Ones</titles>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Cthulhu"]/domains</xpath>
+    <value>
+      <domains>Insanity, Confusion, Madness</domains>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Cthulhu"]/description</xpath>
+    <value>
+      <description>The Tortured Two.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Cthulhu"]/descriptionLong</xpath>
+    <value>
+      <descriptionLong>The Wet Bandits are the manifestation of madness - a series of events so unbelievable it would leave you questioning your sanity. The feeling of a simple task turned disaster. A journeyman losing grasp of the basics. A well-practiced melody becoming discordant. A master outsmarted by a beginner. Your very being becoming unharmonious with its own existence. Dark cultists turn to the Wet Bandits as a way to surrender control to the forces of chaos, and to forego skill and cunning for the whims of chance.</descriptionLong>
+    </value>
+  </Operation>
+
+  <!-- Nyarlathotep to Natsa -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Nyarlathotep"]/label</xpath>
+    <value>
+      <label>Natsa</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Nyarlathotep"]/portrait</xpath>
+    <value>
+      <portrait>Portraits/natsa</portrait>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Nyarlathotep"]/titles</xpath>
+    <value>
+      <titles>The Mirror, The Heretic, Chaos-Undivided</titles>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Nyarlathotep"]/domains</xpath>
+    <value>
+      <domains>Ambition, Self-Fulfilment, Greed, Jealousy</domains>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Nyarlathotep"]/description</xpath>
+    <value>
+      <description>The dark reflection.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Nyarlathotep"]/descriptionLong</xpath>
+    <value>
+      <descriptionLong>Natsa is the mythological twin of Santa Claus, but where Santa is generous, jolly, and kind, Natsa is the embodiment of the antithesis of Santa. Every good trait turned sour, every kindness turned evil. Many believe that Natsa is the reason why Santa has not been sighted in Imperial space for some time, but neither brother has been seen for many years. The cult of Natsa seek to embody his ruthless self-serving ways, and the cult attracts many who believe they were unjustly passed over by family, friends, or society.</descriptionLong>
+    </value>
+  </Operation>
+
+  <!-- Hastur to Gruber -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Hastur"]/label</xpath>
+    <value>
+      <label>Hans Gruber</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Hastur"]/portrait</xpath>
+    <value>
+      <portrait>Portraits/hansgruber</portrait>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Hastur"]/titles</xpath>
+    <value>
+      <titles>The Fallen One, The Mastermind</titles>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Hastur"]/domains</xpath>
+    <value>
+      <domains>Control, Domination, Manipulation</domains>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Hastur"]/description</xpath>
+    <value>
+      <description>The mastermind.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Hastur"]/descriptionLong</xpath>
+    <value>
+      <descriptionLong>Hans Gruber is the central figure of an ancient Earth myth calling him a mastermind who could control the fates of man with only a gentle word. Though much of the story is lost, it is believed that this legendary figure threatened the very fate of mankind by controlling the wills of others, and forced them to steal the very soul of Christmas. In his greatest hour he was cast down below the depth of Earth, but he lies in wait, looking to secure his legacy.</descriptionLong>
+    </value>
+  </Operation>
+
+  <!-- Tsathoggua to Oogie Boogie -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Tsathoggua"]/label</xpath>
+    <value>
+      <label>Oogie Boogie</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Tsathoggua"]/portrait</xpath>
+    <value>
+      <portrait>Portraits/oogieboogie</portrait>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Tsathoggua"]/titles</xpath>
+    <value>
+      <titles>The Unstitched, Nemesis, The Gambler</titles>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Tsathoggua"]/domains</xpath>
+    <value>
+      <domains>Formless Being, Fear, Greed, Cannibalism</domains>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Tsathoggua"]/description</xpath>
+    <value>
+      <description>The embodiment of nightmare.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Tsathoggua"]/descriptionLong</xpath>
+    <value>
+      <descriptionLong>Oogie Boogie is fear given form - a shifting mass of putrid terror. Follows of Oogie Boogie serve only their darkest desires, most grotesque impulses, and exist only to consume and engorge. The cult of Oogie Boogie will go to any extreme to feed their own sadistic addictions, and even amongst the Imperial cults, worship of Oogie Boogie is considered amongst the most foul.</descriptionLong>
+    </value>
+  </Operation>
+
+  <!-- Bast to Abominable Snowman -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Bast"]/label</xpath>
+    <value>
+      <label>Abominable Snowman</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Bast"]/portrait</xpath>
+    <value>
+      <portrait>Portraits/abominablesnowman</portrait>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Bast"]/titles</xpath>
+    <value>
+      <titles>The Ice Giant, Yeti, Snowstalker</titles>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Bast"]/domains</xpath>
+    <value>
+      <domains>Death, Entropy, Eternal Frost, Domination of Nature</domains>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Bast"]/description</xpath>
+    <value>
+      <description>The apex predator.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/CultOfCthulhu.CosmicEntityDef[defName="Entity_Bast"]/descriptionLong</xpath>
+    <value>
+      <descriptionLong>The Abominable Snowman is a creature so terrifying that its existence is hidden from even the most powerful intergalatic rulers. The embodiment of nature's rage in an enormous, twisted, human-like form, many believe that the Abominable Snowman is the herald of the end-times, and a portent of nature's pure, distilled wrath. Cultists of the Abominable Snowman revere nature, and welcome his arrival to free the world of humanity's putrid stain.</descriptionLong>
+    </value>
+  </Operation>
+</Patch>
