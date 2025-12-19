@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch> 
+  <!-- Outpost to Empire -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/WorldObjectDef[defName="Outpost_Farming"]/expandingIconTexture</xpath>
+    <value>
+      <expandingIconTexture>World/WorldObjects/Expanding/Empire</expandingIconTexture>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/WorldObjectDef[defName="Outpost_Artillery"]/expandingIconTexture</xpath>
+    <value>
+      <expandingIconTexture>World/WorldObjects/Expanding/Empire</expandingIconTexture>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/WorldObjectDef[defName="Outpost_Defensive"]/expandingIconTexture</xpath>
+    <value>
+      <expandingIconTexture>World/WorldObjects/Expanding/Empire</expandingIconTexture>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/WorldObjectDef[defName="Outpost_Drilling"]/expandingIconTexture</xpath>
+    <value>
+      <expandingIconTexture>World/WorldObjects/Expanding/Empire</expandingIconTexture>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/WorldObjectDef[defName="Outpost_Encampment"]/expandingIconTexture</xpath>
+    <value>
+      <expandingIconTexture>World/WorldObjects/Expanding/Empire</expandingIconTexture>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/WorldObjectDef[defName="Outpost_Hunting"]/expandingIconTexture</xpath>
+    <value>
+      <expandingIconTexture>World/WorldObjects/Expanding/Empire</expandingIconTexture>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/WorldObjectDef[defName="Outpost_Logging"]/expandingIconTexture</xpath>
+    <value>
+      <expandingIconTexture>World/WorldObjects/Expanding/Empire</expandingIconTexture>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/WorldObjectDef[defName="Outpost_Mining"]/expandingIconTexture</xpath>
+    <value>
+      <expandingIconTexture>World/WorldObjects/Expanding/Empire</expandingIconTexture>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/WorldObjectDef[defName="Outpost_Production"]/expandingIconTexture</xpath>
+    <value>
+      <expandingIconTexture>World/WorldObjects/Expanding/Empire</expandingIconTexture>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/WorldObjectDef[defName="Outpost_Scavenging"]/expandingIconTexture</xpath>
+    <value>
+      <expandingIconTexture>World/WorldObjects/Expanding/Empire</expandingIconTexture>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/WorldObjectDef[defName="Outpost_Science"]/expandingIconTexture</xpath>
+    <value>
+      <expandingIconTexture>World/WorldObjects/Expanding/Empire</expandingIconTexture>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/WorldObjectDef[defName="Outpost_Town"]/expandingIconTexture</xpath>
+    <value>
+      <expandingIconTexture>World/WorldObjects/Expanding/Empire</expandingIconTexture>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/WorldObjectDef[defName="Outpost_Trading"]/expandingIconTexture</xpath>
+    <value>
+      <expandingIconTexture>World/WorldObjects/Expanding/Empire</expandingIconTexture>
+    </value>
+  </Operation>
+</Patch>
