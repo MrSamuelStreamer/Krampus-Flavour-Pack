@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch> 
+  <!-- Oak -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Plant_TreeOak"]/graphicData</xpath>
+    <value>
+      <graphicData>
+        <graphicClass>Graphic_Single</graphicClass>
+        <texPath>Things/Building/Misc/ChristmasTree/CT_Oak</texPath>
+        <drawSize>(2.2,2.2)</drawSize>
+        <drawOffset>(0, 0, 0.75)</drawOffset>
+        <shadowData>
+          <volume>(0.8, 1.5, 0.8)</volume>
+          <offset>(0, 0, -0.25)</offset>
+        </shadowData>
+      </graphicData>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Plant_TreeOak"]/plant</xpath>
+    <value>
+      <plant>
+        <growDays>30</growDays>
+        <leaflessGraphicPath>Things/Building/Misc/ChristmasTree/CT_Oak</leaflessGraphicPath>
+        <immatureGraphicPath>Things/Building/Misc/ChristmasTree/CT_Oak</immatureGraphicPath>
+        <leaflessImmatureGraphicPath>Things/Building/Misc/ChristmasTree/CT_Oak</leaflessImmatureGraphicPath>
+        <leaflessSnowOverlayGraphicPath>Things/Building/Misc/ChristmasTree/CT_Oak</leaflessSnowOverlayGraphicPath>
+        <immatureSnowOverlayGraphicPath>Things/Building/Misc/ChristmasTree/CT_Oak</immatureSnowOverlayGraphicPath>
+        <harvestWork>1400</harvestWork>
+        <harvestYield>46</harvestYield>
+        <wildClusterWeight>35</wildClusterWeight>
+    </plant>
+    </value>
+  </Operation>
+  <!-- Pine -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Plant_TreePine"]/graphicData</xpath>
+    <value>
+      <graphicData>
+        <graphicClass>Graphic_Single</graphicClass>
+        <texPath>Things/Building/Misc/ChristmasTree/CT_Pine</texPath>
+        <drawSize>(1.5,1.5)</drawSize>
+        <drawOffset>(0, 0, 0.75)</drawOffset>
+        <shadowData>
+          <volume>(0.8, 1.5, 0.8)</volume>
+          <offset>(0, 0, -0.25)</offset>
+        </shadowData>
+      </graphicData>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant</xpath>
+    <value>
+      <plant>
+        <growDays>20</growDays>
+        <visualSizeRange>1.2~2.0</visualSizeRange>
+        <harvestWork>710</harvestWork>
+        <harvestYield>27</harvestYield>
+        <pollutedGraphicPath>Things/Building/Misc/ChristmasTree/CT_Pine</pollutedGraphicPath>
+        <immatureGraphicPath>Things/Building/Misc/ChristmasTree/CT_Pine</immatureGraphicPath>
+        <snowOverlayGraphicPath>Things/Building/Misc/ChristmasTree/CT_Pine</snowOverlayGraphicPath>
+        <immatureSnowOverlayGraphicPath>Things/Building/Misc/ChristmasTree/CT_Pine</immatureSnowOverlayGraphicPath>
+      </plant>
+    </value>
+  </Operation>
+  <!-- Fir -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VCE_Plant_TreeFir"]/graphicData</xpath>  
+    <value>
+      <graphicData>
+        <graphicClass>Graphic_Single</graphicClass>
+        <texPath>Things/Building/Misc/ChristmasTree/CT_BoilingPine</texPath>  <!-- No Fir specific texture -->
+        <drawSize>(1.5,1.5)</drawSize>
+        <drawOffset>(0, 0, 0.75)</drawOffset>
+        <shadowData>
+          <volume>(0.8, 1.5, 0.8)</volume>
+          <offset>(0, 0, -0.25)</offset>
+        </shadowData>
+      </graphicData>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VCE_Plant_TreeFir"]/plant</xpath>
+    <value>
+      <plant>
+			<growDays>20</growDays>
+			<visualSizeRange>1.2~2.4</visualSizeRange>
+			<harvestWork>800</harvestWork>
+			<harvestYield>27</harvestYield>
+			<immatureGraphicPath>Things/Building/Misc/ChristmasTree/CT_BoilingPine</immatureGraphicPath>
+		</plant>
+    </value>
+  </Operation>
+</Patch>

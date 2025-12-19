@@ -89,10 +89,7 @@
   <XenotypeDef>
     <defName>MSSK_Who</defName>
     <label>Who</label>
-    <description>Whos are the diminutive denizens of Whoville that pride themselves on living in peace and harmony with themselves and the nature around them. They are friendly to an almost aggressive level, with even their worst enemies finding themselves on the receiving end of persistent complements and reassuring sing-song. 
-
-They are tough, have particularly long lifespans, have enormous families, and a variety of nature-based skills, but lack any sort of military or combat awareness, with weapons and armour being foreign concepts to the Who people. 
-</description>
+    <description>Whos are the diminutive denizens of Whoville that pride themselves on living in peace and harmony with themselves and the nature around them. They are friendly to an almost aggressive level, with even their worst enemies finding themselves on the receiving end of persistent complements and reassuring sing-song. They are tough, have particularly long lifespans, have enormous families, and a variety of nature-based skills, but lack any sort of military or combat awareness, with weapons and armour being foreign concepts to the Who people.</description>
     <descriptionShort>A small, overly friendly, nature-attuned race of tiny humanoids.</descriptionShort>
     <iconPath>UI/Icons/Xenotypes/Custom/Yttakin_5</iconPath>
     <inheritable>true</inheritable>
