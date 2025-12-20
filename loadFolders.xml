@@ -2,6 +2,7 @@
 <loadFolders>
     <v1.6>
         <li>1.6</li>
+        <li>Common</li>
         <li>RimThemes</li>
         <li IfModActive="vanillaexpanded.backgrounds">Compatibility/vanillaexpanded.backgrounds/1.6</li>
         <li IfModActive="zal.cocc">Compatibility/zal.cocc/1.6</li>
