@@ -7,5 +7,6 @@
         <li IfModActive="zal.cocc">Compatibility/zal.cocc/1.6</li>
         <li IfModActive="happycam.christmastreesexpanded">Compatibility/happycam.christmastreesexpanded/1.6</li>
         <li IfModActive="vanillaexpanded.outposts">Compatibility/vanillaexpanded.outposts/1.6</li>
+        <li IfModActive="jdgg.vanillasleigh">Compatibility/jdgg.vanillasleigh/1.6</li>
     </v1.6>
 </loadFolders>

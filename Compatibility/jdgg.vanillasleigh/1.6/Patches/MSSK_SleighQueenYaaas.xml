@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch> 
+  <!-- Base ship building -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEP_CrashedShip"]/graphicData</xpath>
+    <value>
+      <graphicData>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <texPath>Things/Building/santasleigh/santasleigh</texPath>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(2.75,7.5)</drawSize>
+        <color>(128,128,128)</color>
+		</graphicData>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEP_CrashedShip"]/size</xpath>
+    <value>
+      <size>(12,2)</size>
+    </value>
+  </Operation>
+  <!-- Skyfaller -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEP_Ship"]/graphicData</xpath>
+    <value>
+      <graphicData>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <texPath>Things/Building/santasleigh/santasleigh</texPath>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(2.75,12.5)</drawSize>
+        <color>(128,128,128)</color>
+      </graphicData>
+    </value>
+  </Operation>
+  <!-- Ship to Sleigh -->
+  <!-- Skyfallers -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEP_Ship_Black"]/graphicData</xpath>
+    <value>
+      <graphicData>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <texPath>Things/Building/santasleigh/santasleigh</texPath>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(2.75,12.5)</drawSize>
+        <color>(128,128,128)</color>
+      </graphicData>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEP_Ship_Green"]/graphicData</xpath>
+    <value>
+      <graphicData>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <texPath>Things/Building/santasleigh/santasleigh</texPath>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(2.75,12.5)</drawSize>
+        <color>(128,128,128)</color>
+      </graphicData>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEP_Ship_Orange"]/graphicData</xpath>
+    <value>
+      <graphicData>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <texPath>Things/Building/santasleigh/santasleigh</texPath>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(2.75,12.5)</drawSize>
+        <color>(128,128,128)</color>
+      </graphicData>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEP_Ship_Red"]/graphicData</xpath>
+    <value>
+      <graphicData>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <texPath>Things/Building/santasleigh/santasleigh</texPath>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(2.75,12.5)</drawSize>
+        <color>(128,128,128)</color>
+      </graphicData>
+    </value>
+  </Operation>
+  <!-- Building -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEP_CrashedShip_Black"]/graphicData</xpath>
+    <value>
+      <graphicData>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <texPath>Things/Building/santasleigh/santasleigh</texPath>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(2.75,7.5)</drawSize>
+        <color>(128,128,128)</color>
+      </graphicData>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEP_CrashedShip_Green"]/graphicData</xpath>
+    <value>
+      <graphicData>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <texPath>Things/Building/santasleigh/santasleigh</texPath>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(2.75,7.5)</drawSize>
+        <color>(128,128,128)</color>
+      </graphicData>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEP_CrashedShip_Orange"]/graphicData</xpath>
+    <value>
+      <graphicData>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <texPath>Things/Building/santasleigh/santasleigh</texPath>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(2.75,7.5)</drawSize>
+        <color>(128,128,128)</color>
+      </graphicData>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEP_CrashedShip_Red"]/graphicData</xpath>
+    <value>
+      <graphicData>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <texPath>Things/Building/santasleigh/santasleigh</texPath>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(2.75,7.5)</drawSize>
+        <color>(128,128,128)</color>
+      </graphicData>
+    </value>
+  </Operation>
+</Patch>
