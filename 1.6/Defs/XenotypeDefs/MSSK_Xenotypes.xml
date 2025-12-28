@@ -128,7 +128,7 @@
     <label>Iron Lady</label>
     <description>The Iron Lady was a xenotype crafted by an ancient empire as a solution to the unrest in their collapsing realm. Designed to be a stern, immovable leader, with built in assassination resistance, Iron Ladies were deployed in desperate circumstances but more often than not resulted in greater civil unrest by implementing rash short-term policies with a total disregard for cultural sensitivity.</description>
     <descriptionShort>Skilled diplomats designed for high-profile political leadership in desperate times.</descriptionShort>
-    <iconPath>UI/Icons/Xenotypes/Custom/VBE_CustomXenotypeIcon125</iconPath>
+    <iconPath>UI/Icons/Xenotypes/Custom/VBE_CustomXenotypeIcon25</iconPath>
     <inheritable>true</inheritable>
     <genes>
       <li>Ageless</li>
